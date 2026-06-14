@@ -4,24 +4,24 @@ A Java-based Command Line Interface (CLI) application that performs CRUD (Create
 
 ### Features
 
-Add new student records
-View all student records
-Update existing student details
-Delete student records
-Automatic creation of database and table
-Secure database operations using PreparedStatement
-Exception handling for reliable execution
-User-friendly command-line interface
+* Add new student records
+* View all student records
+* Update existing student details
+* Delete student records
+* Automatic creation of database and table
+* Secure database operations using PreparedStatement
+* Exception handling for reliable execution
+* User-friendly command-line interface
 
 ### Technologies Used
 
-Java
-JDBC (MySQL Connector/J)
-MySQL
-SQL
+* Java
+* JDBC (MySQL Connector/J)
+* MySQL
+* SQL
 
 ### Project Structure
-
+```
 StudentManagementSystem/
 │
 ├── src/
@@ -31,15 +31,15 @@ StudentManagementSystem/
 │
 ├── mysql-connector-j.jar
 └── README.md
-
+```
 
 ### Database Details
 
 The application automatically creates:
 
-Database: student_db 
+* Database: student_db 
 
-Table: students 
+* Table: students 
 
 ```
 CREATE TABLE students (
@@ -54,9 +54,9 @@ CREATE TABLE students (
 
 Before running the project, ensure you have:
 
-Java JDK 8 or higher
-MySQL Server
-MySQL Connector/J (JDBC Driver)
+* Java JDK 8 or higher
+* MySQL Server
+* MySQL Connector/J (JDBC Driver)
 
 ### Setup Instructions
 1. Clone the Repository
