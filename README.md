@@ -87,6 +87,9 @@ Download MySQL Connector/J and add it to the project's classpath.
 6. Run the Application
    
 ``` java Main```
+``` javac -cp "lib/mysql-connector-j-9.6.0.jar" src/*.java ```
+
+``` java -cp "src;lib/mysql-connector-j-9.6.0.jar" Main ```
 
 ### Sample Menu
 ```
