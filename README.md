@@ -65,9 +65,12 @@ Download MySQL Connector/J and add it to the project's classpath.
 
 4. Compile the Project
 javac *.java
-5. Run the Application
+
+6. Run the Application
 java Main
+
 Sample Menu
+
 ===== Student Management System =====
 
 1. Add Student
